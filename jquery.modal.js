@@ -195,7 +195,7 @@
 
 
       $(this.$elm).on('keydown', function(e) {
-        let isTabPressed = e.key === 'Tab' || e.keyCode === 9;
+        var isTabPressed = e.key === 'Tab' || e.keyCode === 9;
 
         if (!isTabPressed) {
           return;
